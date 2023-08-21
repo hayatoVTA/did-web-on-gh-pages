@@ -1,0 +1,19 @@
+{
+  "name": "did-web-on-gh-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node src/generate.js",
+    "demo": "node src/demo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "did-jwt": "^7.2.5",
+    "jose": "^4.14.4",
+    "readline-sync": "^1.4.10",
+    "web-did-resolver": "^2.0.27"
+  }
+}
